@@ -7,7 +7,7 @@ html, body {
     border: 7px solid black;
     border-radius: 20px;
     width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 
@@ -31,8 +31,63 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    margin: 0px 25px;
+    margin: 0px 23px;
 }
 
-/* main body */
+/* main-body */
+
+.main-body{
+    margin: 70px 0px 20px 0px;
+}
+
+.main-body-container{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.main-body-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0px;
+}
+
+.main-body p{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 23px;
+    margin-left: 3px
+}
+
+.post-vangogh{
+    width: 100%;
+}
+
+/* btm-sec */
+.btm-sec {
+    margin-left: 20px;
+}
+
+.icon-heart,
+.icon-comment,
+.icon-dm{
+    height: 60px;
+    width: 60px;
+    margin: 8px 17px 0px 5px;
+}
+
+.icon-heart:hover,
+.icon-comment:hover,
+.icon-dm:hover{
+    opacity: 40%;
+}
+
+.btm-sec p{
+    margin: 21px 0px 21px 9px;
+    font-size: 24px;
+}
+
+span {
+    font-weight: bold;
+    font-family: "Source Sans 3", sans-serif;
+}
 
